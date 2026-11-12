@@ -8,10 +8,10 @@
 pkgbase=gpu-unlock
 pkgname=(gpu-unlock-dkms gpu-unlock-firmware)
 pkgver=2.0.0
-pkgrel=1
+pkgrel=2
 _nv=610.43.03
 _installer=NVIDIA-Linux-x86_64-$_nv-no-compat32.run
-pkgdesc='Ampere pre-driver hardware unlock'
+pkgdesc='GeForce pre-driver unlock (local Turing PR #294 test build)'
 arch=('x86_64')
 url=''
 license=('GPL-2.0-only')
